@@ -30,4 +30,5 @@ WriteMakefile (
 #	    homepage => 'http://',
         },
     },
+    MIN_PERL_VERSION => '5.006000',
 );

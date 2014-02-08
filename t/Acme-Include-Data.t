@@ -3,7 +3,9 @@
 use warnings;
 use strict;
 use Test::More;
-use Acme::Include::Data;
+use Acme::Include::Data 'yes_it_works';
+
+is (yes_it_works (), "This is a data file.\n");
 
 done_testing ();
 # Local variables:
