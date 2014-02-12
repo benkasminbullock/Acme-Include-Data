@@ -25,7 +25,7 @@ Please see L<this blog post|http://www.lemoda.net/perl/data-in-distro/> for more
 
 =head1 LICENCE
 
-You can use, redistribute, and modify this under the same licence
+You can use, redistribute, and modify this under the same
 terms as Perl itself.
 
 =cut
@@ -39,7 +39,7 @@ require Exporter;
 use warnings;
 use strict;
 use Carp;
-our $VERSION = 0.02;
+our $VERSION = 0.04;
 
 
 my $data = __FILE__;
