@@ -10,7 +10,9 @@ binmode $builder->todo_output,    ":utf8";
 binmode STDOUT, ":encoding(utf8)";
 binmode STDERR, ":encoding(utf8)";
 use Perl::Build::Pod qw/pod_checker pod_link_checker/;
-my $filepath = "$Bin/../lib/WWW/Wikipedia/LangTitles.pod";
+use Perl::Build 'get_info';
+my $info = get_info (base => "$Bin/..");
+my $filepath = "$Bin/../$info->{pod}";
 my $errors = pod_checker ($filepath);
 ok (@$errors == 0, "No errors");
 if (@$errors > 0) {

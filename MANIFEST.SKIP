@@ -11,3 +11,4 @@ MYMETA..*
 ^lib/Acme/Include/Data\.pod\.tmpl$
 ^make-pod\.pl$
 ^xt/.*\.t$
+^examples/.*-out\.txt$
