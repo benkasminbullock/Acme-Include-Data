@@ -8,3 +8,6 @@ MYMETA..*
 .*\.bak
 ^Acme-Include-Data-[0-9\.]+/$
 ^Acme-Include-Data-[0-9\.]+\.tar\.gz$
+^lib/Acme/Include/Data\.pod\.tmpl$
+^make-pod\.pl$
+^xt/.*\.t$

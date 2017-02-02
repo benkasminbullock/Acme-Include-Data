@@ -3,13 +3,14 @@ use warnings;
 use ExtUtils::MakeMaker;
 
 my $pm = 'lib/Acme/Include/Data.pm';
+my $pod = 'lib/Acme/Include/Data.pod';
 my $github = 'github.com/benkasminbullock/Acme-Include-Data';
 my $repo = "https://$github";
 
 WriteMakefile (
     NAME => 'Acme::Include::Data',
     VERSION_FROM => $pm,
-    ABSTRACT_FROM => $pm,
+    ABSTRACT_FROM => $pod,
     AUTHOR => 'Ben Bullock <bkb@cpan.org>',
     LICENSE => 'perl',
     PREREQ_PM => {
