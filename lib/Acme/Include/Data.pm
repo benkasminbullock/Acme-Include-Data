@@ -8,7 +8,7 @@ require Exporter;
 use warnings;
 use strict;
 use Carp;
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 my $data = __FILE__;
 $data =~ s/Data\.pm$/this-is-a-data-file.txt/;
